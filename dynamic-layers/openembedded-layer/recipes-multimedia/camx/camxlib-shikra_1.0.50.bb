@@ -1,13 +1,13 @@
 PLATFORM = "shikra"
-PBT_BUILD_DATE = "260923.1"
+PBT_BUILD_DATE = "260928"
 
 require common.inc
 
-SRC_URI[camxlib.sha256sum] = "76779bcb6fb15031c21cbbbcd450672b9653541e932fe21175760fede869d836"
-SRC_URI[camx.sha256sum] = "732e17ed2f584921e7fb27c2650535bc74e53ab560868b3cbc140988e0c0226d"
-SRC_URI[chicdk.sha256sum] = "692419dc326c5c3aebe14691a077ae3fd9fcc9c3c4e208ebb0a4722cd8431555"
-SRC_URI[camxcommon.sha256sum] = "8e13a8ecc860893c2dafb563d2a4cff6fc5f1312b168f997e487cd25e5ed5ffb"
-SRC_URI[camxtest.sha256sum] = "c7a458508ce1655d68e448996560ed9449e7c019ab6253a97889a13671a7e1d6"
+SRC_URI[camxlib.sha256sum] = "c489cc217f452933a55ddc73029ef1986238ff1c794f1da4debb330d769edf5f"
+SRC_URI[camx.sha256sum] = "f3f63fccb9c259fa72fbaafebe4d41fe71213c62c7d9006040cfa2fbb891d0e9"
+SRC_URI[chicdk.sha256sum] = "5e1d9813a003997b6dade431b9aa354e3ec79ad35d24790b5ef19bfee7440016"
+SRC_URI[camxcommon.sha256sum] = "509499da73e2b6bed95d338216048e46defd21093046033a7016e6bdde62a5a8"
+SRC_URI[camxtest.sha256sum] = "1179e697034e94ca1ee447cdc716edc15e0373034987a69981d140ae562f263b"
 
 DEPENDS += " \
     sensinghub \
